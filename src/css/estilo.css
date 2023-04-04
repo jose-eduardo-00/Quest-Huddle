@@ -1,0 +1,89 @@
+body{
+    width: 1440px;
+    background: url(../imagens/bg-desktop.svg) no-repeat hsl(257, 40%, 49%);
+}
+.header{
+    height: 25vh;
+    display: flex;
+    align-items: center;
+}
+
+.header img{
+    margin-left: 75px;
+    height: 53px;
+}
+
+.container{
+    display: flex;
+    color: #ffffff;
+    margin: 35px 0 25px 0;
+    gap: 50px;
+}
+
+.container img{
+    width: 100vw;
+    margin-left: 75px;
+}
+
+.container .content{
+    display: flex;
+    flex-direction: column;
+    margin: 40px 75px 0 0;
+    gap: 28px;
+}
+.container .content .title{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 40px;
+}
+
+.container .content .paragraph{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    line-height: 25px;
+    font-size: 18px;
+}
+
+.container .content .btn-register{
+    font-family: 'Poppins', sans-serif;
+    color: hsl(257, 77%, 71%);
+    align-self: flex-start;
+    padding: 15px 70px;
+    border-radius: 30px;
+    background-color: #ffffff;
+}
+
+.container .content .btn-register:hover{
+    background-color: hsl(300, 69%, 71%);
+    color: #ffffff;
+    cursor: pointer;
+}
+
+.footer{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 10px;
+    margin: 0 70px 30px 0;
+}
+
+.footer i{
+    color: #ffffff;
+    padding: 7px;
+    border: solid 1px #ffffff;
+    border-radius: 50%;
+}
+
+.footer i:first-child{
+    padding: 7px 11px;
+}
+
+.footer i:last-child{
+    padding: 7px 9px;
+}
+
+.footer i:hover {
+    color: hsl(300, 86%, 67%);
+    border-color: hsl(300, 86%, 67%);
+    cursor: pointer;
+}
